@@ -8358,7 +8358,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: It's to dangerous to go alone! Take this.
+  m_text: It's dangerous to go alone! Take this.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -32453,6 +32453,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114785520803357612, guid: 26e273690f7384e4b9a9ce94d4851ae5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26e273690f7384e4b9a9ce94d4851ae5, type: 3}
 --- !u!1001 &1519887803
@@ -46784,7 +46788,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &2477104536274185812
 GameObject:
   m_ObjectHideFlags: 0
@@ -49160,7 +49164,7 @@ MonoBehaviour:
   maxLife: 6
   shieldCol: {fileID: 427232905}
   rotSpeed: 5
-  sword: 1
+  sword: 0
   TextCanvas: {fileID: 1676918879}
   HeartImages:
   - {fileID: 166342309}

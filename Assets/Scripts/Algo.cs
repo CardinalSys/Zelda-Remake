@@ -22,8 +22,9 @@ public class Algo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(isStopped)
+        if (!isStopped)
         {
+            agent.isStopped = false;
             distance = Vector3.Distance(transform.position, Player.transform.position);
 
             if (canMove)
@@ -38,6 +39,8 @@ public class Algo : MonoBehaviour
                 }
             }
         }
+        else
+            agent.isStopped = true;
 
 
     }
